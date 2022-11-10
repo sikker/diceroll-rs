@@ -6,7 +6,7 @@ edition = "2021"
 license = "MIT"
 authors = ["Per Sikker Hansen <persikkerhansen@gmail.com>"]
 categories = ["mathematics", "game-development"]
-keywords = ["gamedev", "rpg", "world of darkness", "wod", "dungeons and dragons", "d&d", "dnd", "shadowrun", "dice", "roll"]
+keywords = ["gamedev", "rpg", "wod", "dnd", "dungeons-and-dragons"]
 repository = "https://github.com/sikker/diceroll-rs"
 
 
