@@ -7,6 +7,7 @@ license = "MIT"
 authors = ["Per Sikker Hansen <persikkerhansen@gmail.com>"]
 categories = ["mathematics", "game-development"]
 keywords = ["gamedev", "rpg", "world of darkness", "wod", "dungeons and dragons", "d&d", "dnd", "shadowrun", "dice", "roll"]
+repository = "https://github.com/sikker/diceroll-rs"
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
