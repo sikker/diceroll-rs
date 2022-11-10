@@ -1,8 +1,13 @@
 [package]
 name = "diceroll"
+description = "A simple dice rolling lib for RPG purposes."
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+authors = ["Per Sikker Hansen <persikkerhansen@gmail.com>"]
+categories = ["mathematics", "game-development"]
+keywords = ["gamedev", "rpg", "world of darkness", "wod", "dungeons and dragons", "d&d", "dnd", "shadowrun", "dice", "roll"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
