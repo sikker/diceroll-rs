@@ -37,7 +37,7 @@ fn main() {
 ```
 This will give an output looking something like this:
 ```
-We rolled 2d6+2, which yielded a total of 16.
+We rolled 2d6+2, which yielded a total of 9.
 ```
 
 ### Roll with advantage
@@ -74,8 +74,8 @@ fn main() {
     let result = roll(DiceRoll::new()
         .dice(amount_of_dice)
         .sides(sides)
-        .target(target))
-        .explode_on(explode_on);
+        .target(target)
+        .explode_on(explode_on));
     println!("We rolled a dice pool of {}d{} with a target number of {} and exploding successes on {}", amount_of_dice, sides, target, explode_on);
     println!("--- The result of the rolls ({}) yielded a total of {}", Itertools::join(&mut result[0].rolls.iter(), ","), result.total);
 }
