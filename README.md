@@ -5,7 +5,7 @@ A simple dice rolling lib for RPG purposes in Rust.
 Install the package by adding it to Cargo.toml:
 ```toml
 [dependencies]
-quote = "1.0"
+diceroll = "0.1.0"
 ```
 
 The basic way you use the library is creating a diceroll using `DiceRoll::new()`, configuring it with the builder pattern with the parameters you want. Then you pass said configuration to the `roll()` function, giving you a `RollResult` struct containing an i32 `total` and a Vec<i32> of individual `rolls`. It is also possible to pass the configured diceroll to `roll_with_advantage` or to `roll_with_disadvantage`, which will return an array of two roll results with index 0 always containing the "winning" roll (with disadvantage this means the lowest result, with advantage this means the highest), and with index 1 always containing the discarded roll. 
